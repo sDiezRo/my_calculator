@@ -7,11 +7,14 @@
 			function cube(elev){ 
 			var num = document.getElementById("n1");
 			num.value = Math.pow(num.value, elev); }
+			function seno(){ 
+			var num = document.getElementById("n1");
+			num.value = Math.sin(num.value); }
 		 </script>
 	</head>
 	<body>
 		 <h1>Calculadora de Susana Diez Rodríguez</h1>
 		 Number:  <input type="text" id="n1"> 
-		 <p><button onclick="cube(3)"> x^3 </button> &nbsp;<button onclick="cube(4)"> x^4 </button></p>
+		 <p><button onclick="cube(3)"> x^3 </button> &nbsp;<button onclick="seno()"> sin(x) </button></p>
 	</body>
 </html>
